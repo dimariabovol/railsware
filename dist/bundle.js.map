@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;AAA4B","sources":["webpack://railsware/./src/index.js"],"sourcesContent":["import './styles/main.scss';\r\n"],"names":[],"sourceRoot":""}
