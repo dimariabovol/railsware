@@ -2,9 +2,9 @@
 
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerWebpackPlugin = require('css-minimizer-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: process.env.NODE_ENV || 'production',
@@ -33,13 +33,18 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html',
+      filename: 'login.html',
+      template: './login.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'reset.html',
+      template: './reset.html',
     }),
     new MiniCssExtractPlugin({
       filename: 'styles.css',
     }),
     new CopyPlugin({
       patterns: [{ from: './images', to: 'images' }],
-    }),
+    })
   ],
 };
