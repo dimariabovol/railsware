@@ -2,6 +2,10 @@
 
 I have prepared the text exercise for you, please check it out! :sunglasses:
 
+Here you can find [Login](https://dimariabovol.github.io/railsware/login.html)
+and [Forgot password](https://dimariabovol.github.io/railsware/reset.html)
+pages. Welcome to this!
+
 ## Requirements
 
 - node version `^14.18.1`
