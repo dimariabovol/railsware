@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Railsware - Reset</title>
+    <link rel="stylesheet" href="./dist/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="page__section">
+        <div class="page__container">
+          <div class="page__body">
+            <img
+              class="page__illustration"
+              srcset="./images/forgot-password@2x.png 2x"
+              src="./images/forgot-password.png"
+              width="212"
+              height="212"
+              alt="A woman is reseting password"
+            />
+            <h1 class="page__title title-1">Forgot Password</h1>
+            <form class="form">
+              <div class="form__field input">
+                <label class="input__label" for="email">
+                  Enter your e-mail
+                </label>
+                <input
+                  class="input__control"
+                  id="email"
+                  type="email"
+                  placeholder="example@email.com"
+                />
+                <svg class="input__icon" aria-hidden="true">
+                  <use href="./images/sprite.svg#contact"></use>
+                </svg>
+              </div>
+              <button
+                class="form__field button button--primary text-uppercase"
+                type="submit"
+              >
+                Reset password
+              </button>
+            </form>
+          </div>
+          <footer class="page__footer footer">
+            <p class="footer__info">
+              Already have an account?
+              <a class="link" href="./login.html">Login here</a>
+            </p>
+          </footer>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

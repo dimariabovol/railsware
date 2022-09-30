@@ -34,11 +34,11 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'login.html',
-      template: './login.html',
+      template: './templates/login.html',
     }),
     new HtmlWebpackPlugin({
       filename: 'reset.html',
-      template: './reset.html',
+      template: './templates/reset.html',
     }),
     new MiniCssExtractPlugin({
       filename: 'styles.css',
