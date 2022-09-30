@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  color: $color-primary;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem; /* Assumes the browser default, typically `16px` */
+  font-weight: 400;
+  background-color: $color-background;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px $color-inverted, 0 0 0 4px $color-brand;
+}

@@ -1,3 +1,9 @@
-body {
-  background-color: #fff;
-}
+/* Base */
+@import './variables';
+@import './fonts';
+@import './base';
+
+/* Utils */
+@import './utils/mixins';
+@import './utils/texts';
+@import './utils/typography';
