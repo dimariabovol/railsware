@@ -1,0 +1,44 @@
+.input {
+  position: relative;
+
+  &__label {
+    @include visually-hidden;
+  }
+
+  &__control {
+    @include text-regular;
+
+    width: 100%;
+    color: $color-brand;
+    font-family: inherit;
+    padding: 0.75rem 1.5rem 0.75rem 3rem;
+    border: 1px solid $color-gray;
+    border-radius: 0.5rem;
+    transition: border-color 0.2s;
+    appearance: none;
+    box-shadow: none;
+
+    &:focus {
+      border-color: $color-brand;
+    }
+
+    &::placeholder {
+      color: $color-gray;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 0.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: translateY(-50%);
+    fill: $color-gray;
+    transition: fill 0.2s;
+
+    .input:focus-within & {
+      fill: $color-brand;
+    }
+  }
+}

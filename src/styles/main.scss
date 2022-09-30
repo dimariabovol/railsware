@@ -7,3 +7,14 @@
 @import './utils/mixins';
 @import './utils/texts';
 @import './utils/typography';
+
+/* UI */
+@import './ui/buttons';
+@import './ui/input';
+@import './ui/link';
+
+/* Components */
+@import './components/footer';
+@import './components/form';
+@import './components/page';
+@import './components/socials';

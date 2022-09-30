@@ -1,0 +1,12 @@
+.link {
+  @include text-regular;
+
+  padding: 0.5rem 0; /* clickable area for a11y */
+  color: $color-brand;
+  text-decoration: none;
+  text-underline-offset: 0.125rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

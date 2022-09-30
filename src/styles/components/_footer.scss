@@ -1,0 +1,11 @@
+.footer {
+  &__info {
+    margin: 0;
+    color: $color-secondary;
+    text-align: center;
+  }
+
+  &__socials {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,29 @@
+.page {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 24.5rem;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  &__body {
+    margin-top: 10vh;
+  }
+
+  &__illustration {
+    margin: 0 auto 2rem;
+  }
+
+  &__title {
+    margin: 0 0 2rem;
+    text-align: center;
+  }
+
+  &__footer {
+    margin: auto 0 10vh;
+    padding-top: 3rem;
+  }
+}

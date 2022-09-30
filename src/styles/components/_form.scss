@@ -1,0 +1,12 @@
+.form {
+  &__field {
+    & + & {
+      margin-top: 2rem;
+    }
+  }
+
+  &__forgot-password {
+    margin: 0.5rem 0 2rem;
+    text-align: right;
+  }
+}

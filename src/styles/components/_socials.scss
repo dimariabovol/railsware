@@ -1,0 +1,10 @@
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &__item {
+    display: flex;
+    flex-grow: 1;
+  }
+}
